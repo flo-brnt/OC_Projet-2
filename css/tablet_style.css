@@ -1,0 +1,63 @@
+@media all and (max-width: 992px) {
+	#main_wrapper {
+		margin: 0;
+	}
+	
+	.filters {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.inputs {
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.filter_selection {
+		margin-right: 15px;
+	}
+
+	#hebergements {
+		flex-wrap: wrap-reverse;
+	}
+
+	#place_to_stay, #popular {
+		margin: 0px;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		border-radius: 0px;
+	}
+
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+
+	.formulaire {
+		padding: 10px;
+	}
+
+	.tiles {
+		justify-content: center;
+	}
+
+	.cards {
+		width: 320px;
+	}
+
+	#popular_spot_tiles {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100%;		
+	}
+
+	#activities {
+		padding: 15px;
+	}
+
+	 #activity_columns {
+	 	justify-content: center;
+	 }
+}
